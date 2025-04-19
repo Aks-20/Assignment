@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+/* Additional styles for our application */
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.actions {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #343a40;
+}
+
+.table th {
+  background-color: #f8f9fa;
+}
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+/* Additional styles for our application */
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.actions {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #343a40;
+}
+
+.table th {
+  background-color: #f8f9fa;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,19 @@
+<h2>All Persons</h2>
+<a href="/person/create">Create New Person</a>
+<table border="1">
+  <tr>
+    <th>Name</th><th>Age</th><th>Gender</th><th>Mobile</th><th>Actions</th>
+  </tr>
+  <% people.forEach(p => { %>
+    <tr>
+      <td><%= p.name %></td>
+      <td><%= p.age %></td>
+      <td><%= p.gender %></td>
+      <td><%= p.mobile %></td>
+      <td>
+        <a href="/person/edit/<%= p._id %>">Edit</a> |
+        <a href="/person/delete/<%= p._id %>">Delete</a>
+      </td>
+    </tr>
+  <% }) %>
+</table>
